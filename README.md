@@ -18,6 +18,27 @@
 ## Problem Description
 
 Air pollution is a critical environmental issue that poses significant health and well-being risks to individuals. Particulate Matter (PM) is a major air pollutant, with PM2.5 referring to fine particles measuring 2.5 micrometers or smaller that can deeply penetrate the respiratory system. Accurate forecasting of PM2.5 levels is essential for effective public health management, environmental planning, and policy-making. This project aims to develop machine learning models to forecast PM2.5 levels in the Jeongnim-Dong area from 2018 to 2022.
+## Project Structure
+
+The project repository is organized as follows:
+
+```
+
+├── LICENSE
+├── README.md           <- README .
+├── notebooks           <- Folder containing the final reports/results of this project.
+│   │
+│   └── pollution.py   <- Final notebook for the project.
+├── reports            <- Folder containing the final reports/results of this project.
+│   │
+│   └── Report.pdf     <- Final analysis report in PDF.
+│   
+├── src                <- Source for this project.
+│   │
+│   └── data           <- Datasets used and collected for this project.
+|   └── model          <- Model.
+
+```
 
 ## Data and Data Preprocessing
 
@@ -52,27 +73,7 @@ The trained models are employed to forecast PM2.5 values for the testing dataset
 5. Implement an ensemble approach that amalgamates multiple models for more robust predictions.
 6. Scrutinize residuals to identify potential patterns or model shortcomings.
 7. Deploy the most proficient model as an online forecasting service for real-time PM2.5 predictions.
-## Project Structure
 
-The project repository is organized as follows:
-
-```
-
-├── LICENSE
-├── README.md           <- README .
-├── notebooks           <- Folder containing the final reports/results of this project.
-│   │
-│   └── pollution.py   <- Final notebook for the project.
-├── reports            <- Folder containing the final reports/results of this project.
-│   │
-│   └── Report.pdf     <- Final analysis report in PDF.
-│   
-├── src                <- Source for this project.
-│   │
-│   └── data           <- Datasets used and collected for this project.
-|   └── model          <- Model.
-
-```
 
 ## License
 
